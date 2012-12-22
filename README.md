@@ -29,6 +29,38 @@ To compile the example programs, check out this repository and run
 `make`. You may need to edit the `Makefile` to adjust the path to
 libfreenect's header files.
 
+### Install OSX
+    
+#### Get Homebrew formulas
+
+    cd <homebrew>/Library/Formula
+    curl --insecure -O "https://raw.github.com/OpenKinect/libfreenect/master/platform/osx/homebrew/libfreenect.rb"
+    curl --insecure -O "https://raw.github.com/OpenKinect/libfreenect/master/platform/osx/homebrew/libusb-freenect.rb"
+
+#### Download & Install libpng
+
+    http://ethan.tira-thompson.com/Mac_OS_X_Ports.html
+
+#### Checkout & Build
+
+    git clone https://github.com/ricallinson/kinect.git
+    cd kinect
+    brew install libfreenect
+    make
+
+__Note: Currentently fails!__
+
+### Install Debain
+
+#### Checkout & Build
+
+    git clone https://github.com/ricallinson/kinect.git
+    cd kinect
+    sudo apt-get install libpng12-dev
+    sudo apt-get install freenect
+    make
+
+__Note: Currentently fails!__
 
 ## Example: Watching depth data from the command line
 
