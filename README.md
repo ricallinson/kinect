@@ -35,7 +35,7 @@ libfreenect's header files.
 
     http://ethan.tira-thompson.com/Mac_OS_X_Ports.html
 
-#### Install libfreenect
+#### Install libfreenect (using homebrew)
 
     cd <homebrew>/Library/Formula
     curl --insecure -O "https://raw.github.com/OpenKinect/libfreenect/master/platform/osx/homebrew/libfreenect.rb"
