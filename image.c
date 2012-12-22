@@ -26,13 +26,13 @@ void Image_destroy(Image *img) {
   }
 }
 
-extern inline void Image_set_pixel(Image *img, unsigned int x, unsigned int y, Pixel pixel) {
+void Image_set_pixel(Image *img, unsigned int x, unsigned int y, Pixel pixel) {
   if (x >= img->width) return;
   if (y >= img->height) return;
   img->data[y * img->width + x] = pixel;
 }
 
-extern inline Pixel Image_get_pixel(Image *img, unsigned int x, unsigned int y) {
+Pixel Image_get_pixel(Image *img, unsigned int x, unsigned int y) {
   if (x >= img->width) return 0;
   if (y >= img->height) return 0;
   return img->data[y * img->width + x];
