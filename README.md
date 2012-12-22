@@ -55,6 +55,7 @@ __Note: Currentently fails!__
 #### Install libpng
 
     sudo apt-get install libpng12-dev
+    sudo adduser $USER plugdev
 
 #### Install libfreenect
 
