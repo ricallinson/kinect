@@ -52,7 +52,7 @@ Removed "extern inline" prefixes to get the code to compile.
 
 ### Compile Debain
 
-Removed "extern inline" prefixes to get the code to compile. The binary __kinect-depth-ascii__ runs but does not output anything on my Raspberry PI.
+Removed "extern inline" prefixes to get the code to compile. The binary __kinect-depth-ascii__ runs but does not output anything on my Raspberry PI. I suspect it's because the default version of libpng is 1.2 not 1.5.
 
 #### Install libpng
 
