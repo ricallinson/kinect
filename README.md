@@ -29,7 +29,7 @@ To compile the example programs, check out this repository and run
 `make`. You may need to edit the `Makefile` to adjust the path to
 libfreenect's header files.
 
-### Install OSX
+### Compile OSX
     
 #### Get Homebrew formulas
 
@@ -41,23 +41,32 @@ libfreenect's header files.
 
     http://ethan.tira-thompson.com/Mac_OS_X_Ports.html
 
-#### Checkout & Build
+#### Install libfreenect
+
+    brew install libfreenect
+
+#### Checkout & Compile
 
     git clone https://github.com/ricallinson/kinect.git
     cd kinect
-    brew install libfreenect
     make
 
 __Note: Currentently fails!__
 
-### Install Debain
+### Compile Debain
 
-#### Checkout & Build
+#### Install libpng
+
+    sudo apt-get install libpng12-dev
+
+#### Install libfreenect
+
+    sudo apt-get install freenect
+
+#### Checkout & Compile
 
     git clone https://github.com/ricallinson/kinect.git
     cd kinect
-    sudo apt-get install libpng12-dev
-    sudo apt-get install freenect
     make
 
 __Note: Currentently fails!__
