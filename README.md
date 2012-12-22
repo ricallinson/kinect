@@ -31,6 +31,8 @@ libfreenect's header files.
 
 ### Compile OSX
 
+Removed "extern inline" prefixes to get the code to compile.
+
 #### Download & Install libpng
 
     http://ethan.tira-thompson.com/Mac_OS_X_Ports.html
@@ -48,9 +50,9 @@ libfreenect's header files.
     cd kinect
     make
 
-__Note: Currentently fails!__
-
 ### Compile Debain
+
+Removed "extern inline" prefixes to get the code to compile. The binary __kinect-depth-ascii__ runs but does not output anything on my Raspberry PI.
 
 #### Install libpng
 
@@ -66,8 +68,6 @@ __Note: Currentently fails!__
     git clone https://github.com/ricallinson/kinect.git
     cd kinect
     make
-
-__Note: Currentently fails!__
 
 ## Example: Watching depth data from the command line
 
