@@ -30,12 +30,6 @@ To compile the example programs, check out this repository and run
 libfreenect's header files.
 
 ### Compile OSX
-    
-#### Get Homebrew formulas
-
-    cd <homebrew>/Library/Formula
-    curl --insecure -O "https://raw.github.com/OpenKinect/libfreenect/master/platform/osx/homebrew/libfreenect.rb"
-    curl --insecure -O "https://raw.github.com/OpenKinect/libfreenect/master/platform/osx/homebrew/libusb-freenect.rb"
 
 #### Download & Install libpng
 
@@ -43,6 +37,9 @@ libfreenect's header files.
 
 #### Install libfreenect
 
+    cd <homebrew>/Library/Formula
+    curl --insecure -O "https://raw.github.com/OpenKinect/libfreenect/master/platform/osx/homebrew/libfreenect.rb"
+    curl --insecure -O "https://raw.github.com/OpenKinect/libfreenect/master/platform/osx/homebrew/libusb-freenect.rb"
     brew install libfreenect
 
 #### Checkout & Compile
